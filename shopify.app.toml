@@ -3,7 +3,7 @@
 client_id = "54ea3e53b2999aa0cacb9472be02e692"
 name = "customer-accounts"
 handle = "customer-accounts-50"
-application_url = "https://great-travelling-actively-induced.trycloudflare.com"
+application_url = "https://earned-narrative-pork-offering.trycloudflare.com"
 embedded = true
 
 [build]
@@ -27,9 +27,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://great-travelling-actively-induced.trycloudflare.com/auth/callback",
-  "https://great-travelling-actively-induced.trycloudflare.com/auth/shopify/callback",
-  "https://great-travelling-actively-induced.trycloudflare.com/api/auth/callback"
+  "https://earned-narrative-pork-offering.trycloudflare.com/auth/callback",
+  "https://earned-narrative-pork-offering.trycloudflare.com/auth/shopify/callback",
+  "https://earned-narrative-pork-offering.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]

@@ -16,8 +16,8 @@ type = "ui_extension"
 # https://shopify.dev/docs/api/customer-account-ui-extensions/unstable/extension-targets-overview
 
 [[extensions.targeting]]
-module = "./src/OrderStatusBlock.jsx"
-target = "customer-account.order-status.block.render"
+module = "./src/FulfillmentDelivery.jsx"
+target = "customer-account.order-status.fulfillment-details.render-after"
 
 [extensions.capabilities]
 # Gives your extension access to directly query Shopify’s storefront API.
