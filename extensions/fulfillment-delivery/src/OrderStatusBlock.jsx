@@ -3,8 +3,7 @@ import {
   reactExtension,
   TextBlock,
   Banner,
-  useApi,
-  Link,
+  useApi
 } from "@shopify/ui-extensions-react/customer-account";
 
 export default reactExtension(
@@ -19,10 +18,7 @@ function PromotionBanner() {
     <Banner>
       <BlockStack inlineAlignment="center" >
         <TextBlock>
-          {`🎉 You've earned 1,000 points from this order. You've been upgraded to Platinum tier. `}
-          <Link>
-            View rewards
-          </Link>
+          {i18n.translate("earnPoints")}
         </TextBlock>
       </BlockStack>
     </Banner>
