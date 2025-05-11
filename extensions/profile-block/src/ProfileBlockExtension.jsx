@@ -10,7 +10,7 @@ import {
 } from "@shopify/ui-extensions-react/customer-account";
 
 export default reactExtension(
-  "customer-account.order-status.block.render",
+  "customer-account.profile.block.render",
   () => <ProfileBlockExtension />
 );
 
